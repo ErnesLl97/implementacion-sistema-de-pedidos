@@ -30,7 +30,7 @@ El sistema consta de dos microservicios principales:
    - Servicio consumidor de pedidos.  
    - Escucha el topic Kafka y persiste pedidos en MySQL.  
    - Expone endpoints para consultar pedidos (listado y detalle).  
-   - Documentación Swagger disponible en `/swagger-ui/index.html`.
+   
 
 ---
 
@@ -52,6 +52,6 @@ El sistema consta de dos microservicios principales:
 ### procesador-service
 - `GET /pedidos` – Listar todos los pedidos.
 - `GET /pedidos/{id}` – Obtener pedido por ID.
-- `/swagger-ui/index.html` – Documentación Swagger.
+
 
 
