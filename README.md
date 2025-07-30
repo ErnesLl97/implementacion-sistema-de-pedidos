@@ -1,12 +1,12 @@
-# Proyecto Sistema de Pedidos con Microservicios (Spring Boot, Kafka, Docker y MySQL)
+# Sistema de Pedidos
 
-Este proyecto es una aplicación didáctica que implementa un sistema básico de pedidos usando una arquitectura de microservicios. El objetivo principal fue repasar y mejorar conceptos fundamentales de desarrollo backend con tecnologías actuales.
+Este proyecto es una aplicación didáctica que implementa un sistema básico de pedidos usando una arquitectura de microservicios
 
 ---
 
 ## Tecnologías usadas
 
-- **Java 21**
+- **Java **
 - **Spring Boot** (REST API, Spring Data JPA, Spring Kafka)
 - **Apache Kafka** (mensajería asincrónica)
 - **MySQL** (base de datos relacional)
@@ -54,19 +54,4 @@ El sistema consta de dos microservicios principales:
 - `GET /pedidos/{id}` – Obtener pedido por ID.
 - `/swagger-ui/index.html` – Documentación Swagger.
 
----
-
-## Lecciones y mejoras
-
-Este proyecto me permitió reforzar conocimientos y prácticas como:
-
-- Comunicación entre microservicios con Kafka.
-- Persistencia en base de datos con Spring Data JPA.
-- Configuración y uso de Docker para infraestructura.
-- Manejo básico de excepciones y documentación de API con Swagger.
-- Diseño limpio y modular en Spring Boot.
-
----
-
-¡Gracias por visitar este proyecto!
 
